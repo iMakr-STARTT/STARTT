@@ -1,0 +1,44 @@
+{
+  "packages": [
+    {
+      "name": "STARTT",
+      "maintainer": "iMakr",
+      "websiteURL": "https://www.imakr.com/us/en/startt-affordable-3d-printer/1146-startt-3d-printer.html",
+      "email": "jack@imakr.com",
+      "help": {
+        "online": "https://github.com/iMakr-STARTT/STARTT"
+      },
+      "platforms": [
+        {
+          "name": "STARTT",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "STARTT",
+          "help": {
+            "online": "https://github.com/iMakr-STARTT/STARTT"
+          },
+          "url": "https://github.com/iMakr-STARTT/STARTT/releases/download/1.0.0/STARTT-1.0.0.zip",
+          "archiveFileName": "STARTT-1.0.0.zip",
+          "checksum": "SHA-256:6fb8eefe11ae71324c8939f724affe32d2b9268eb22ad7e3f212493dde28b0ae",
+          "size": "88648",
+          "boards": [
+            {"name": "STARTT"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}

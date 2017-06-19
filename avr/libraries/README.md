@@ -1,0 +1,1 @@
+Specific libraries for STARTT can be put inside this folder

@@ -1,0 +1,35 @@
+menu.cpu=Processor
+
+##############################################################
+
+startt.name=STARTT
+
+startt.upload.tool=arduino:avrdude
+startt.upload.protocol=arduino
+
+startt.bootloader.tool=arduino:avrdude
+startt.bootloader.low_fuses=0xFF
+startt.bootloader.high_fuses=0xDE
+startt.bootloader.extended_fuses=0xFD
+startt.bootloader.unlock_bits=0x3F
+startt.bootloader.lock_bits=0x0F
+
+startt.build.board=AVR_STARTT
+startt.build.core=arduino:arduino
+startt.build.variant=startt
+
+###### ATmega1284x
+
+## Sanguino W/ ATmega1284 or ATmega1284P 16MHz
+startt.menu.cpu.atmega1284p=ATmega1284 or ATmega1284P (16 MHz)
+
+startt.menu.cpu.atmega1284p.upload.maximum_size=130048
+startt.menu.cpu.atmega1284p.upload.maximum_data_size=16384
+startt.menu.cpu.atmega1284p.upload.speed=57600
+
+startt.menu.cpu.atmega1284p.bootloader.file=optiboot/optiboot_atmega1284p.hex
+
+startt.menu.cpu.atmega1284p.build.mcu=atmega1284p
+startt.menu.cpu.atmega1284p.build.f_cpu=16000000L
+
+############################################################
